@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="contentTableViewCell" rowHeight="58" id="KGk-i7-Jjw" customClass="contentTableViewCell" customModule="Xtreme_Water_Sports" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="57.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zsU-SY-g56">
+                        <rect key="frame" x="0.0" y="0.0" width="336" height="57.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jRp-DF-mvF">
+                                <rect key="frame" x="0.0" y="0.0" width="336" height="57.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="4YJ-Xr-VDL">
+                                        <rect key="frame" x="8" y="0.0" width="320" height="55"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Exf-7t-8Ie">
+                                                <rect key="frame" x="0.0" y="0.0" width="158" height="55"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a88-zw-HJH">
+                                                        <rect key="frame" x="10" y="10" width="138" height="35"/>
+                                                        <mutableString key="text">1. The allowed ages on jet Ski are above 16 years and under 60 years old
+2. No Original Passport or Labor Card or Emirates ID_NO TRIP.
+3. Pregnant ladies are not allowed to drive/ride the ski.
+4. Driver (client) of Jet Ski should take extreme caution all the time. Instructor/ company will not be held responsible for accidents made by the client
+5. if any client will be misbehaving the instructor will report Immediately to the police/ coast guards and will return to our marina. The full cost will be applied and no refund
+6. It is the responsibility of the client to inform the instructor about any other Information not mentioned In the document written thereafter.
+7. Guest must check his/her belonging prior to leaving the jet Ski, instructor/ company will not be held responsible for loss thereafter
+8. Any kind of loss/damage to the jet Ski Made by the client will be recovered from the client. The cost will be inclusive of the service of the repair. Payment will be on the spot or any arrangements thereafter.
+9. For any unwanted technical/mechanical Torture during the trip, the Jet Ski must go back directly tour marina and the trip will be stopped due to safety reason. Certain refund of rescheduling of the trip ore options.
+10. This document is to be signed prior going to the trip No signature, No Trip
+11. ln case of coast guard cancels the trip because of poor weather, the client can decide to make a full refund or reschedule the trip
+12. Any fines incurred during the trip made by the client will result to payment of the same payment will be on the spot or any arrangement thereafter.
+13. No entry In restricted places.
+14. Not wearing a life jacket No trip.
+15. The instructor and the client should be back at our marina before Sunset.
+16. If the instructor find's the client unfit to drive the jet Ski It is the instructor's discretion not to take the trip
+
+</mutableString>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="23"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="a88-zw-HJH" secondAttribute="bottom" constant="10" id="2Y6-mx-ncd"/>
+                                                    <constraint firstItem="a88-zw-HJH" firstAttribute="top" secondItem="Exf-7t-8Ie" secondAttribute="top" constant="10" id="GKk-Ms-ot1"/>
+                                                    <constraint firstItem="a88-zw-HJH" firstAttribute="leading" secondItem="Exf-7t-8Ie" secondAttribute="leading" constant="10" id="Igk-zj-WUY"/>
+                                                    <constraint firstAttribute="trailing" secondItem="a88-zw-HJH" secondAttribute="trailing" constant="10" id="WMO-ab-IuD"/>
+                                                    <constraint firstAttribute="width" constant="158" id="WuX-z8-G81"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="12"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fv6-dX-ivW">
+                                                <rect key="frame" x="162" y="0.0" width="158" height="55"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spT-XM-fWn">
+                                                        <rect key="frame" x="10" y="10" width="138" height="35"/>
+                                                        <mutableString key="text">1. The allowed ages on jet Ski are above 16 years and under 60 years old
+2. No Original Passport or Labor Card or Emirates ID_NO TRIP.
+3. Pregnant ladies are not allowed to drive/ride the ski.
+4. Driver (client) of Jet Ski should take extreme caution all the time. Instructor/ company will not be held responsible for accidents made by the client
+5. if any client will be misbehaving the instructor will report Immediately to the police/ coast guards and will return to our marina. The full cost will be applied and no refund
+6. It is the responsibility of the client to inform the instructor about any other Information not mentioned In the document written thereafter.
+7. Guest must check his/her belonging prior to leaving the jet Ski, instructor/ company will not be held responsible for loss thereafter
+8. Any kind of loss/damage to the jet Ski Made by the client will be recovered from the client. The cost will be inclusive of the service of the repair. Payment will be on the spot or any arrangements thereafter.
+9. For any unwanted technical/mechanical Torture during the trip, the Jet Ski must go back directly tour marina and the trip will be stopped due to safety reason. Certain refund of rescheduling of the trip ore options.
+10. This document is to be signed prior going to the trip No signature, No Trip
+11. ln case of coast guard cancels the trip because of poor weather, the client can decide to make a full refund or reschedule the trip
+12. Any fines incurred during the trip made by the client will result to payment of the same payment will be on the spot or any arrangement thereafter.
+13. No entry In restricted places.
+14. Not wearing a life jacket No trip.
+15. The instructor and the client should be back at our marina before Sunset.
+16. If the instructor find's the client unfit to drive the jet Ski It is the instructor's discretion not to take the trip
+
+</mutableString>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="23"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="spT-XM-fWn" secondAttribute="trailing" constant="10" id="7zs-ZJ-wrP"/>
+                                                    <constraint firstItem="spT-XM-fWn" firstAttribute="leading" secondItem="Fv6-dX-ivW" secondAttribute="leading" constant="10" id="DRX-iw-hFs"/>
+                                                    <constraint firstAttribute="width" constant="158" id="GAa-dn-v7g"/>
+                                                    <constraint firstItem="spT-XM-fWn" firstAttribute="top" secondItem="Fv6-dX-ivW" secondAttribute="top" constant="10" id="nJJ-tb-2J3"/>
+                                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="spT-XM-fWn" secondAttribute="bottom" constant="10" id="oGc-yv-nMk"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="11"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="4YJ-Xr-VDL" firstAttribute="top" secondItem="jRp-DF-mvF" secondAttribute="top" id="HXE-ZO-jKg"/>
+                                    <constraint firstItem="4YJ-Xr-VDL" firstAttribute="leading" secondItem="jRp-DF-mvF" secondAttribute="leading" constant="8" id="MVY-tW-OMp"/>
+                                    <constraint firstAttribute="trailing" secondItem="4YJ-Xr-VDL" secondAttribute="trailing" constant="8" id="mM5-LE-wzG"/>
+                                    <constraint firstAttribute="bottom" secondItem="4YJ-Xr-VDL" secondAttribute="bottom" constant="2.5" id="rz9-Pi-nGX"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jRp-DF-mvF" firstAttribute="top" secondItem="zsU-SY-g56" secondAttribute="top" id="2be-sY-WLZ"/>
+                            <constraint firstAttribute="trailing" secondItem="jRp-DF-mvF" secondAttribute="trailing" id="drp-c4-p5e"/>
+                            <constraint firstItem="jRp-DF-mvF" firstAttribute="leading" secondItem="zsU-SY-g56" secondAttribute="leading" id="uqc-0U-1N8"/>
+                            <constraint firstAttribute="bottom" secondItem="jRp-DF-mvF" secondAttribute="bottom" id="xLl-G3-dET"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zsU-SY-g56" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9y9-kk-gE3"/>
+                    <constraint firstAttribute="trailing" secondItem="zsU-SY-g56" secondAttribute="trailing" id="AUh-sI-NF4"/>
+                    <constraint firstItem="zsU-SY-g56" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ZHv-C3-GRp"/>
+                    <constraint firstAttribute="bottom" secondItem="zsU-SY-g56" secondAttribute="bottom" id="q6t-KR-Zi7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="forArabicLa" destination="spT-XM-fWn" id="9AL-Kv-nIr"/>
+                <outlet property="forEnglishLa" destination="a88-zw-HJH" id="s4o-Z6-gtz"/>
+            </connections>
+            <point key="canvasLocation" x="141.30434782608697" y="54.910714285714285"/>
+        </tableViewCell>
+    </objects>
+</document>

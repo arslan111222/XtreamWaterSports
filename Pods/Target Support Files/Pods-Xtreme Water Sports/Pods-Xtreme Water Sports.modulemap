@@ -1,0 +1,6 @@
+framework module Pods_Xtreme_Water_Sports {
+  umbrella header "Pods-Xtreme Water Sports-umbrella.h"
+
+  export *
+  module * { export * }
+}

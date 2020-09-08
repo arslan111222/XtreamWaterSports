@@ -1,0 +1,70 @@
+PODS:
+  - Alamofire (4.8.2)
+  - DropDown (2.3.13)
+  - IQKeyboardManager (6.4.0)
+  - IQKeyboardManagerSwift (6.4.0)
+  - MBProgressHUD (1.1.0)
+  - SimplePDF (3.0.0)
+  - SwifterSwift (5.0.0):
+    - SwifterSwift/AppKit (= 5.0.0)
+    - SwifterSwift/CoreGraphics (= 5.0.0)
+    - SwifterSwift/CoreLocation (= 5.0.0)
+    - SwifterSwift/Dispatch (= 5.0.0)
+    - SwifterSwift/Foundation (= 5.0.0)
+    - SwifterSwift/MapKit (= 5.0.0)
+    - SwifterSwift/SpriteKit (= 5.0.0)
+    - SwifterSwift/SwiftStdlib (= 5.0.0)
+    - SwifterSwift/UIKit (= 5.0.0)
+  - SwifterSwift/AppKit (5.0.0)
+  - SwifterSwift/CoreGraphics (5.0.0)
+  - SwifterSwift/CoreLocation (5.0.0)
+  - SwifterSwift/Dispatch (5.0.0)
+  - SwifterSwift/Foundation (5.0.0)
+  - SwifterSwift/MapKit (5.0.0)
+  - SwifterSwift/SpriteKit (5.0.0)
+  - SwifterSwift/SwiftStdlib (5.0.0)
+  - SwifterSwift/UIKit (5.0.0)
+  - SwiftSignatureView (2.2.2)
+  - SwiftyJSON (5.0.0)
+  - TextFieldEffects (1.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown
+  - IQKeyboardManager
+  - IQKeyboardManagerSwift
+  - MBProgressHUD
+  - SimplePDF
+  - SwifterSwift
+  - SwiftSignatureView
+  - SwiftyJSON
+  - TextFieldEffects
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DropDown
+    - IQKeyboardManager
+    - IQKeyboardManagerSwift
+    - MBProgressHUD
+    - SimplePDF
+    - SwifterSwift
+    - SwiftSignatureView
+    - SwiftyJSON
+    - TextFieldEffects
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
+  IQKeyboardManagerSwift: ed9b04ee0e3067ffba543283462d619f944b05e5
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SimplePDF: 903143ede36965886997a5c1bc6b8940b082ba20
+  SwifterSwift: 96f90594b370802f01647c2b1229c74a84ffafee
+  SwiftSignatureView: 7c163f7b3d394d5db060a0ae1080ff8bc4c25c4e
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TextFieldEffects: 529b8aff706fb40f82c41c780c0777941a893796
+
+PODFILE CHECKSUM: 766694a2258b53e48e00f4f51e16d588c36a172d
+
+COCOAPODS: 1.7.5
